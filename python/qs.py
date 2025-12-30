@@ -96,6 +96,22 @@ print(s)
 s.append([2332,89])
 print(s)
 t="  my\nlol"
-print(len(t.strip()))
 
+print(t[4])
+print(repr(t))
+
+print(len((t)))
+
+x=input("enter ur phrase: ")
+x.split()
+for i in len(x):
+    print(x[i])
+    print()
+count=0
+if "hi" in x:
+    count+=1
+print(count)
+
+y=x.replace(" ","_")
+print(y)
 
